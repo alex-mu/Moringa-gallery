@@ -33,7 +33,7 @@ def imageDetailPage(request, slug1, slug2):
 
     context = {}
     context['category'] = category
-    context['image'] = image
+    context['images'] = image
 
     return render(request, 'main/image.html', context)
 
